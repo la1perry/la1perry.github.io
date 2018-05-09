@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Pilates Studio of Dundarave</title>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="icomoon/style.css">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+
+// $('.menu').click(function(){
+// $('nav').toggleClass("slide");
+
+// });
+
+$(window).scroll(function(){
+
+ var media=$(window).width();
+var scroll=$(window).scrollTop();
+
+if (scroll>1200){
+	$("header").addClass('fixed');
+	$("header img").addClass("hide");
+	$("h2").addClass("hide");
+	$("h1").addClass("hide");
+$("nav").addClass("nav");
+}
+
+	if(scroll<500){
+$("header").removeClass('fixed');
+	$("header img").removeClass("hide");
+	$("h2").removeClass("hide");
+	$("h1").removeClass("hide");
+	$("nav").removeClass("nav");
+      $('.menu').removeClass("show");
+
+}
+
+ if(media<800){
+  if(scroll>800){
+    $('nav').addClass("side");
+    $('nav ul').addClass("mobile");
+    $('.menu').addClass("show");
+$('.menu li').addClass('size');
+$('header').addClass('margin');
+$("nav").removeClass("nav");
+
+
+
+}
+if(scroll<540){
+$('nav').removeClass("side");
+$('.menu').removeClass("show");
+$('ul').removeClass('mobile');
+$('header').removeClass('margin');
+$('.main li').removeClass('size');
+$('header').show();
+
+}
+}
+ if(media>800){
+$('nav').removeClass("side");
+    $('.menu').removeClass("show");
+$('.main li').removeClass('size');
+$('header').removeClass('margin');
+$('ul').removeClass('mobile');
+ }
+
+ $('.menu').on("click", function(e){
+ e.preventDefault();
+$('header').toggle();
+
+});
+
+});
+
+	});
+</script>
+    
+  </head>
+
+  <body>
+
+ <header>
+ <img src="logo3.png">
+ <h1>The Pilates Studio of Dundarave</h1>
+
+ 	<nav>
+ 		<ul>
+ 			<li>Our Story</li>
+ 			<li>Our Method</li>
+ 			<li>Our Studio</li>
+ 			<li>Instructors</li>
+ 			<li>Testimonials</li>
+ 			<li>Price List</li>
+ 			<li>Contact</li>
+ 		</ul>
+ 	</nav>
+
+ </header>
+
+ <div class="container">
+
+<div class="story">
+
+<img src="renamed/Image10.jpg">
+ 	<section>
+ 	<h3><span>Our Story</span></h3>
+ 	<p> At the Pilates Studio of Dundarave we are dedicated to a safe and effective experience that follows the traditional method developed by Jospeh Pilates. Originating from New York in the 1920's, Pilates was designed to rehabilitate Professional Dancers and Soldiers returning from the Great War. Pilates is used to improve how the body functions by strengthening core muscles, restoring vitality and balance through mindfully executed movement. Activities in our studio include instruction through Mat Classes, or with carefully structured exercises using specially designed equipment such as Reformers, Cadillacs and the Pilates Chair.</p>
+ 	
+ 	<p>Our practictioner's specialize in rehabilitation and injury recovery. Whether you are experiencing back pain, joint issues, chronic fatigue or are healing from a spinal cord injury, working with our instructors will give you the knowledge you need to bring your body back in to alignment.Pilates targets not only specific injury-related conditions, it is also used for general strengthening and toning of the body. No matter what your needs, our instructors will develop an individualized approach to help you reach your goals and provide you with the knowledge you need to maintain your ideal levels of mobility and flexibility. 
+ 	</p>	</section>
+
+ 	</div>
+
+
+ <div class="studio">
+
+ 	 <div class="pic">	
+ 	 <img src="renamed/Image03.jpg">
+ <img src="renamed/Image08.jpg">
+ <img src="renamed/Image05.jpg">
+ 
+ <img src="renamed/Image01.jpg">
+</div>
+
+
+ 		<section>
+ 			<h3><span>Our Method</span></h3>
+ <p>Pilates is a low impact methodology of movement that uses stretching and strengthening tehniques formulated to shape a stronger, leaner, and more flexible body. It offers an accessible practice for people of all ages, backgrounds, and fitness levels. It is a gentle, non-invasive form of exercise that combines controlled breathing patterns with precision movements that together help bring the body back into harmony. The goal of Pilates is to improve strength, postural alignment, muscle tone and flexibility. </p>
+
+<p> Sessions working with the Pilates Equipment begin with private 1 hour classes alongside a certified Pilates Practitioner. Your Instructor will help you determine your individual needs to create a safe, achievable, and personalized program. Once you and your instructor agree that you have reached a level of comfortability and agility using the Pilates equipment, you may also choose to attend group sessions. Working with the Reformers ensures rapid results are achieved, and specific attention is paid to develop your form at a pace that suits your needs.</p>
+
+<p>
+  Mat Classes achieve the strengthening and toning benefits of Pilates and are taught progressively over a period of 8 to 12 weeks. Classes range from 2-8 people and offer a cost effective way to achieve your fitness goals.</p>
+ 	
+ 	 <h3><span>Our Studio</span></h3>
+<p>Located in the heart of Dundarave Village, we can be found direcly across from Dundarave beach, just off of Bellevue Ave. Our studio offers a comfortable and serene atmosphere crucial for a restorative experience.</p>
+<p> Without the hustle and bustle of a routine workout experience, pilates lessons at our studio will allow you to focus on bringing awareness into your body's movement using gentle methods for attainable results.</p>
+
+</section>
+
+ </div>
+ 	
+ 	<div class="instructors">
+ 		<h3><span>Instructors</span></h3>
+ 	<section>	<h4>Lisanne Wilson</h4><p>Lisanne studied dance throughout her youth under the guidance of Anna Wyman. She received her B.A. From the University of Victoria and after graduating began her career working for the West Vancouver Police Department. Lisanne continued to develop her passion in understanding how movement can rehabilitate and restore the body, studying Kinesiology at S.F.U. before deciding to approach the study of Pilates. With no accredited Practitioners yet residing in Canada, Lisanne trained with Balanced Body in Florida and Polestar Education and Rehabilitation in Las Vegas, Nevada. During this time abroad she enjoyed immersing herself in the dance community, and worked closely with many performers in Cirque du Soleil. Canada soon developed a program called Stott Pilates, in which Lisanne completed her training and became certified.</p>
+ 	
+ 	<p> Most recently she has studied with Diane Miller, who is considered the Pilates Guru of Vancouver, B.C. Diane Miller is highly regarded worldwide for establishing the Pilates Method Alliance, a global standard of recognition for Pilates Practitioners. Lisanne specializes in rehabilitation and recovery, maintaining contracts with ICBC, the Brain Injury Program of B.C. as well as G.F. Strong and the Spinal Cord Injury Center. She has also worked in San Francisco with the New York City Ballet.</p>
+ 	
+ 	<aside><img src="renamed/Image13.jpg">
+ 	 	<img src="renamed/Image16.jpg">
+ 	 	<img src="renamed/Image17.jpg"></aside>
+
+ 	<h4>Babette Geronimo</h4> <p>Babette is a Stott-trained Pilates Instructor who is certified in mat, reformer, cadillac, chair and barrels. She comes from a dance background, specializing in ballet and jazz. She has extensive experience in injury rehabilition, and is a dedicated, knowledgeable instructor. She is committed to providing you with a safe and challenging Pilates workout. </p>
+ 	<p>
+ 	
+ 	<h4>Kay Leong</h4> <p>Kay is a professional dancer and teacher who has worked for over a decade with numerous Vancouver dance companies including the Paula Ross Dancers. She has also pursued a succesful career as a Social Worker for Child Protective Services, served on the Vancity Board of Directors, and launched the renowned South China Seas Trading Co. on Granville Island which she ran for 13 years. Her passion for movement led her to begin her study of Pilates 10 years ago, and she completed a two-year apprenticeship studying under the Master Pilates Instructor Diane Miller. Committed to excellence, Kay has continued to study Pilates with Michelle Larsen and Marie-Jos Blom-Lawrence. Her extensive training has given her an unerring eye for alignment and an articulate style. 
+ 	  </p></section>
+
+ 	</div>
+ 	<div class="testimonials">
+ 		
+
+ 	</div>
+ 	<div class="price">
+ 		<h3><span>Price List</span></h3>
+<div class="pricelist">
+ 
+    <aside><ul>
+      <li>Introduction to Pilates</li>
+      <li>Cost Per Session</li>
+      <li>$57</li>
+      <li class="show"><a href="pricelist.html">Learn More</a></li>
+    </ul></aside>
+
+   
+      <aside><ul>
+      <li>Private Sessions</li>
+      <li>Cost Per Session</li>
+      <li>$54-$73</li>
+      <li class="show"><a href="pricelist.html">Learn More</a></li>
+    </ul></aside>
+
+        <aside><ul>
+      <li>Semi-Private Sessions</li>
+      <li>Cost Per Session</li>
+      <li>$35-42</li>
+      <li class="show"><a href="pricelist.html">Learn More</a></li>
+    </ul></aside>
+
+
+
+    </div>
+ 	</div>
+
+ 	<div class="contact">
+ 		<h3><span>Contact</span></h3>
+
+ <section>		
+   <p>
+     Contact us for a consultation to begin your discovery:
+ </p>
+ <p>
+ Phone: (604) 913-0031</p>
+ <p>
+ Email: lisanne@telus.net
+ </p>
+ <p>
+ In-Person:
+ 
+ 2463 Bellevue Avenue
+ West Vancouver, BC
+ V7V 1E1
+ <p>
+ <p>
+ Ask us about 
+ Skype sessions!</p>
+ </section>
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2599.9603546089497!2d-123.18371204872662!3d49.333969374954876!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54866e736fb5ea99%3A0xdfbdea23511d4f74!2s2463+Bellevue+Ave%2C+West+Vancouver%2C+BC+V7V+1E1!5e0!3m2!1sen!2sca!4v1496598963688" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+  
+ </div>
+
+
+ </div>
+<footer>
+  <ul></ul>
+</footer>
+<div class="menu"><span></span></div>
+  </body>
+</html>
